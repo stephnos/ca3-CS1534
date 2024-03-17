@@ -1,18 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-bs-theme="light" lang="en">
+
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Untitled</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Projects-Grid-images.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
-    <!-- Navigation omitted for brevity -->
-    <h2>General Information</h2>
-    <p>San Francisco is full of diverse food scenes and interesting neighbourhoods.</p>
-    <img src="assets/img/clipboard-image-15.png" alt="SF's FOG">
-    <p>Fog named Karl, defining the charm of the city.</p>
-    <img src="assets/img/clipboard-image-16.png" alt="Hills of SF">
-    <p>Over 50 hills, home to the crooked Lombard Street.</p>
+
+<body style="position: static;background: rgb(101,120,218);">
+    <div class="card">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="visit.html">Visit</a></li>
+                <li class="nav-item"><a class="nav-link" href="history.html">History</a></li>
+            </ul>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Home</h4>
+            <p class="card-text"></p>
+        </div>
+    </div>
+    <div class="container py-4 py-xl-5">
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <h2>General Information</h2>
+                <p class="w-lg-50">San Francisco is full of diverse food scenes and interesting neighbourhoods.</p>
+            </div>
+        </div>
+        <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+            <div class="col">
+                <div>
+                    <div class="py-4"><iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-122.61102676391603%2C37.706911598228466%2C-122.32435226440431%2C37.82931081282506&amp;layer=mapnik" style="border:1px solid black;"></iframe>
+                        <h4>Map of our City</h4>
+                        <p>San Francisco is only 46 square miles!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="assets/img/clipboard-image-15.png" width="456" height="200">
+                    <div class="py-4">
+                        <h4>SF's FOG</h4>
+                        <p>San Francisco is known for its fog, the locals have even named it Karl. It has it's own Instagram account with 250,000 followers. Fog horns have been deployed throughout SF to warn ships not to hit anything in the blinding fog. Karl is more than a weather phenomenon, its the character and charm of the city.&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="assets/img/clipboard-image-16.png">
+                    <div class="py-4">
+                        <h4>SF is built on more than 50 hills!</h4>
+                        <p>For this reason, the city is very popular with skateboarders. Not only this but SF is home to "Lombard Street" which is the most crooked street in the world, with windy hilly bends!</p>
+                    </div>
+                </div>
+            </div>
+        </div><small></small>
+    </div><br>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
 </body>
+
 </html>
